@@ -79,7 +79,7 @@ body {
 }
 
 .home__achitecture__img {
-  max-width: 50%;
+  max-width: 100%;
   height: 100%;
   margin: 0;
 }
@@ -161,9 +161,10 @@ body {
 
 .firm__container__human {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: start;
   margin-inline: 10%;
+  margin-top: 0;
 }
 
 .firm__container__human__text {
@@ -391,6 +392,7 @@ body {
 
 .projects__container__imgcontainer__object3 {
   background: url(../images/Projects-white.png);
+  background-position: center;
   min-width: 375px;
   height: 450px;
 }
@@ -420,6 +422,7 @@ body {
 
 .projects__container__imgcontainer__object2 {
   background: url(../images/Projects-pivo.png);
+  background-position: center;
   min-width: 375px;
   height: 450px;
   display: flex;
@@ -434,6 +437,7 @@ body {
 
 .projects__container__imgcontainer__object1 {
   background: url(../images/Projects-white2.png);
+  background-position: center;
   min-width: 375px;
   height: 450px;
 }

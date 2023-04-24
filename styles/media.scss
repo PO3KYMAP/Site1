@@ -1,0 +1,602 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  // HEADER
+
+  .header__container {
+    padding-inline: 0;
+    justify-content: space-around;
+  }
+  .header__logo {
+    max-width: 220px;
+    margin-inline: 50px;
+    max-height: 20px;
+  }
+  .nav__list__container {
+    margin: 0;
+    width: 600px;
+  }
+  .nav__list {
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav__block__btn {
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+    height: 46px;
+    width: 155px;
+    font-family: "Poppins", sans-serif;
+    padding-left: 0px;
+  }
+  //   HOME
+
+  .home__achitecture__img {
+    max-width: 50%;
+  }
+  .home__architecture__title {
+    font-size: 20px;
+  }
+  .home__achitecture__partners {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .home__architecture__text {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #403e3b;
+  }
+  // FIRM
+
+  .firm__container__title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 0;
+  }
+  .firm__container__text__p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .firm__container__human__text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  // WHITE__HOUSE
+
+  .white__building {
+    padding-right: 0px;
+  }
+  .white__building__title {
+    font-size: 12px;
+    margin-right: 20px;
+  }
+
+  .white__building__text {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+
+  // PROCESS
+
+  .process__images__container {
+    margin-top: 15px;
+  }
+  .process__upper__title {
+    font-size: 12px;
+  }
+  .process__title {
+    font-size: 25px;
+  }
+  .process__images__container__section__text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #645c55;
+  }
+
+  // STAIRS
+
+  .stairs {
+    padding-right: 0px;
+    margin-top: 60px;
+  }
+  .stairs__container__title {
+    font-size: 12px;
+    margin-right: 20px;
+  }
+
+  .stairs__container__text {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+
+  // CUSTOMERS
+
+  .customers__images {
+    grid-column-gap: 50px;
+  }
+  .customers__container__text__uppertitle {
+    font-size: 12px;
+  }
+  .customers__container__text__title {
+    font-size: 28px;
+  }
+  .customers__container__text__text {
+    font-size: 13px;
+  }
+
+  // STAIRS__WOOD
+
+  .stairs__wood {
+    padding-right: 0px;
+  }
+  .stairs__wood__container__title {
+    font-size: 12px;
+  }
+
+  .stairs__wood__container__text {
+    font-size: 14px;
+  }
+
+  // PROJECTS
+
+  .projects {
+    margin-bottom: 50px;
+  }
+  .projects__container__imgcontainer__object3 {
+    min-width: 270px;
+    height: 345px;
+  }
+  .projects__container__title {
+    font-size: 28px;
+  }
+  .projects__container__text {
+    font-size: 16px;
+  }
+  .projects__container__imgcontainer__object2 {
+    min-width: 270px;
+    height: 345px;
+  }
+  .projects__container__imgcontainer__object1 {
+    min-width: 270px;
+    height: 345px;
+  }
+  .projects__container__imgcontainer__object__uppertitle {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .projects__container__imgcontainer__object__title {
+    font: size 30px;
+  }
+
+  .projects__container__imgcontainer__object__btn {
+    font-size: 12px;
+    width: 110px;
+    height: 35px;
+  }
+  .projects__link {
+    font-size: 14px;
+  }
+  .projects__bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  // PARTNERS
+
+  .partners__container__text__title {
+    font-size: 30px;
+  }
+  .partners__container__text {
+    width: 380px;
+  }
+  .partners__div p {
+    font-size: 13px;
+  }
+  .partners__div span {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  .partners__container__text__link {
+    font-size: 14px;
+    align-items: center;
+  }
+  .probel {
+    height: 50px;
+  }
+
+  // REVIEWS
+
+  .reviews__title {
+    font-size: 30px;
+  }
+  .reviews__uppertitle {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .reviews__link {
+    font-size: 13px;
+    color: #1b1a1a;
+  }
+
+  // FOOTER
+
+  .footer__div {
+    height: 205px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__div__img {
+    margin-bottom: 30px;
+  }
+
+  .footer__div__p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #645c55;
+  }
+  .footer__div__container2 {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 576px;
+    margin: 0 auto;
+  }
+
+  // HEADER
+
+  .header__container {
+    padding-inline: 0;
+    justify-content: space-around;
+  }
+  .header__logo {
+    max-width: 150px;
+    margin-inline: 50px;
+    max-height: 20px;
+  }
+  .nav__list__container {
+    margin: 0;
+    width: 426px;
+  }
+  .nav__list {
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav__list__link {
+    font-size: 10px;
+  }
+  .nav__block__btn {
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 100px;
+    font-family: "Poppins", sans-serif;
+    padding-left: 0px;
+    font-size: 10px;
+  }
+  //   HOME
+
+  .home__achitecture__img {
+    max-width: 50%;
+  }
+  .home__architecture__title {
+    font-size: 16px;
+    height: 50px;
+  }
+  .home__achitecture__partners {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    letter-spacing: 0.5px;
+  }
+  .home__architecture__text {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 20px;
+    color: #403e3b;
+  }
+  .home__architecture__link {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #080808;
+  }
+  // FIRM
+  .firm__container__title {
+    font-size: 14px;
+  }
+  .firm__container__text {
+    width: 100%;
+    height: 90px;
+  }
+  .firm__container__text__p {
+    font-size: 10px;
+    line-height: 10px;
+    margin: 0;
+  }
+  .firm__container__human__text {
+    font-size: 10px;
+  }
+  .firm__container__human__avatar {
+    width: 60px;
+    height: auto;
+  }
+
+  // WHITE__HOUSE
+
+  .white__building {
+    padding-right: 0px;
+    height: 400px;
+  }
+  .white__building__title {
+    font-size: 10px;
+    margin-right: 20px;
+  }
+
+  .white__building__text {
+    font-size: 10px;
+    margin-right: 20px;
+  }
+
+  // PROCESS
+
+  .process {
+    align-items: center;
+    margin-top: 50px;
+  }
+  .process__images__container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  .process__upper__title {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .process__title {
+    font-size: 20px;
+  }
+
+  .process__images__container__section {
+    text-align: center;
+    margin-inline: 10px;
+  }
+  .process__images__container__section__img {
+    width: 80px;
+    height: auto;
+  }
+  .process__images__container__section__text {
+    font-size: 10px;
+  }
+
+  // STAIRS
+
+  .stairs {
+    padding-right: 0px;
+    height: 400px;
+    margin-top: 40px;
+  }
+  .stairs__container__title {
+    font-size: 10px;
+    margin-right: 20px;
+  }
+
+  .stairs__container__text {
+    font-size: 10px;
+    margin-right: 20px;
+  }
+
+  // CUSTOMERS
+
+  .customers__images {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .customer__images__object {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    height: auto;
+  }
+
+  .customers__container__text__uppertitle {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .customers__container__text__title {
+    font-size: 20px;
+  }
+
+  .customers__container__text__text {
+    font-size: 12px;
+  }
+  // STAIRS__WOOD
+
+  .stairs__wood {
+    height: 400px;
+    padding-left: 20px;
+  }
+  .stairs__wood__container {
+    width: 400px;
+  }
+  .stairs__wood__container__title {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+  .stairs__wood__container__text {
+    font-size: 10px;
+  }
+
+  // PROJECTS
+  .projects {
+    background: #f7f7f7;
+    margin-bottom: 100px;
+  }
+  .projects__container__imgcontainer__object3 {
+    min-width: 375px;
+    height: 350px;
+  }
+  .projects__container__title {
+    font-size: 20px;
+  }
+  .projects__container__text {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .projects__container__imgcontainer__object2 {
+    min-width: 375px;
+    height: 350px;
+  }
+
+  .projects__container__imgcontainer__object2 > div {
+    margin: 20px;
+  }
+
+  .projects__container__imgcontainer__object1 {
+    min-width: 375px;
+    height: 350px;
+  }
+  .projects__container__imgcontainer__object__uppertitle {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+  .projects__container__imgcontainer__object__title {
+    font-size: 18px;
+  }
+
+  .projects__container__imgcontainer__object__btn {
+    font-size: 12px;
+  }
+  .projects__container__imgcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .projects__link {
+    font-size: 10px;
+  }
+  .projects__bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  // PARTNERS
+
+  .partners__container__text__title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #403e3b;
+  }
+  .partners__div {
+    display: flex;
+    flex-direction: row;
+  }
+  .partners__container__images__items1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .partners__container__text {
+    width: 200px;
+  }
+
+  .partners__div p {
+    font-size: 12px;
+  }
+
+  .partners__div span {
+    font-size: 10px;
+  }
+  .partners__container__text__link {
+    text-decoration: none;
+    font-size: 12px;
+    color: #080808;
+  }
+  .partners__container__images__item__img {
+    width: 80%;
+  }
+
+  .probel {
+    height: 50px;
+  }
+
+  // REVIEWS
+
+  .reviews__title {
+    font-size: 20px;
+  }
+  .reviews__uppertitle {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+  .reviews__link {
+    font-size: 11px;
+    color: #1b1a1a;
+  }
+
+  // FOOTER
+
+  .footer__div {
+    height: 180px;
+  }
+
+  .footer__div__img {
+    margin-bottom: 30px;
+  }
+
+  .footer__div__p {
+    font-size: 11px;
+  }
+  .footer__div__container2 {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer__div__img {
+    width: 180px;
+  }
+}
