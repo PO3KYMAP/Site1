@@ -263,7 +263,7 @@
     max-width: 50%;
   }
   .home__architecture__title {
-    font-size: 14px;
+    font-size: 16px;
     height: 50px;
   }
   .home__achitecture__partners {
@@ -277,7 +277,7 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 7px;
+    font-size: 9px;
     line-height: 20px;
     color: #403e3b;
   }
@@ -292,14 +292,15 @@
     color: #080808;
   }
   .firm__container__title {
-    font-size: 20px;
+    font-size: 14px;
   }
   .firm__container__text {
     width: 100%;
+    height: 90px;
   }
   .firm__container__text__p {
     font-size: 10px;
-    line-height: 15px;
+    line-height: 10px;
     margin: 0;
   }
   .firm__container__human__text {
@@ -309,16 +310,6 @@
     width: 60px;
     height: auto;
   }
-  .firm {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-top: 50px;
-  }
-  .firm__container {
-    margin-top: 20px;
-  }
   .white__building {
     padding-right: 0px;
     height: 400px;
@@ -326,12 +317,10 @@
   .white__building__title {
     font-size: 10px;
     margin-right: 20px;
-    text-shadow: 0px 0px 0px black;
   }
   .white__building__text {
     font-size: 10px;
     margin-right: 20px;
-    text-shadow: 0px 0px 0px black;
   }
   .process {
     align-items: center;
@@ -374,19 +363,15 @@
     margin-right: 20px;
   }
   .customers__images {
-    margin: 10px;
-  }
-  .customers__container {
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
-    height: 410px;
-    align-items: center;
+    margin: 20px;
   }
   .customer__images__object {
-    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
     height: auto;
-    margin: 0 AUTO;
   }
   .customers__container__text__uppertitle {
     font-size: 10px;
@@ -408,11 +393,9 @@
   .stairs__wood__container__title {
     font-size: 10px;
     letter-spacing: 1px;
-    text-shadow: 0px 0px 0px black;
   }
   .stairs__wood__container__text {
     font-size: 10px;
-    text-shadow: 0px 0px 0px black;
   }
   .projects {
     background: #f7f7f7;
@@ -501,10 +484,6 @@
   .probel {
     height: 50px;
   }
-  .reviews {
-    flex-direction: column;
-    justify-content: center;
-  }
   .reviews__title {
     font-size: 20px;
   }
@@ -513,7 +492,6 @@
     letter-spacing: 1px;
   }
   .reviews__link {
-    margin-top: 20px;
     font-size: 11px;
     color: #1b1a1a;
   }
@@ -582,25 +560,33 @@
   .nav__list__container:hover .nav__list .nav__block__btn {
     display: none;
   }
-  .home__architecture {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #d6c3b3;
-  }
-  .home__achitecture__container {
-    margin-bottom: 30px;
-  }
   .home__achitecture__img {
-    max-width: 100%;
+    max-width: 50%;
   }
   .home__architecture__title {
-    margin-bottom: 10px;
+    font-size: 8px;
+    height: 50px;
   }
   .home__achitecture__partners {
-    margin-bottom: 0px;
+    font-size: 5px;
+  }
+  .home__architecture__text {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5px;
+    line-height: 10px;
+    color: #403e3b;
+  }
+  .home__architecture__link {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5px;
+    line-height: 0px;
+    letter-spacing: 0.4px;
+    color: #080808;
   }
   .firm {
     margin-top: 10px;
@@ -625,7 +611,7 @@
   }
   .firm__container__human__avatar {
     margin-top: 10px;
-    width: 40px;
+    width: 50px;
     height: auto;
   }
   .white__building {
@@ -646,242 +632,198 @@
   }
   .process__images__container {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     margin-top: 10px;
   }
+  .process__upper__title {
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+  .process__title {
+    font-size: 12px;
+  }
   .process__images__container__section {
-    margin-top: 20px;
+    margin-top: 0;
     text-align: center;
     margin-inline: 10px;
   }
-}
-.stairs {
-  padding-right: 0px;
-  height: 300px;
-  margin-top: 40px;
-}
-
-.stairs__container__title {
-  font-size: 8px;
-  margin-right: 20px;
-}
-
-.stairs__container__text {
-  font-size: 8px;
-  margin-right: 20px;
-}
-
-.customers__images {
-  grid-column-gap: 20px;
-}
-
-.customers__container {
-  height: 300px;
-}
-
-.customer__images__object {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 60%;
-  height: auto;
-}
-
-.customers__container__text {
-  margin-left: 10px;
-}
-
-.customers__container__text__uppertitle {
-  font-size: 8px;
-  letter-spacing: 1px;
-}
-
-.customers__container__text__title {
-  font-size: 12px;
-}
-
-.customers__container__text__text {
-  font-size: 8px;
-}
-
-.stairs__wood {
-  height: 300px;
-  padding-left: 20px;
-}
-
-.stairs__wood__container {
-  width: 400px;
-}
-
-.stairs__wood__container__title {
-  font-size: 8px;
-  letter-spacing: 1px;
-  text-shadow: 0px 0px 0px black;
-}
-
-.stairs__wood__container__text {
-  font-size: 8px;
-  text-shadow: 0px 0px 0px black;
-}
-
-.projects {
-  background: #f7f7f7;
-  margin-bottom: 100px;
-}
-
-.projects__container__imgcontainer__object3 {
-  min-width: 300px;
-  height: 250px;
-}
-
-.projects__container__title {
-  margin-top: 20px;
-  font-size: 12px;
-}
-
-.projects__container__text {
-  font-weight: 400;
-  font-size: 8px;
-  margin-bottom: 20px;
-}
-
-.projects__container__imgcontainer__object2 {
-  min-width: 300px;
-  height: 250px;
-}
-
-.projects__container__imgcontainer__object2 > div {
-  margin: 20px;
-}
-
-.projects__container__imgcontainer__object1 {
-  min-width: 300px;
-  height: 250px;
-}
-
-.projects__container__imgcontainer__object__uppertitle {
-  font-size: 8px;
-  letter-spacing: 1px;
-}
-
-.projects__container__imgcontainer__object__title {
-  font-size: 14px;
-}
-
-.projects__container__imgcontainer__object__btn {
-  font-size: 10px;
-  width: 90px;
-}
-
-.projects__container__imgcontainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.projects__link {
-  font-size: 10px;
-}
-
-.projects__bottom {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.partners__container__text__title {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 38px;
-  color: #403e3b;
-}
-
-.partners__div {
-  display: flex;
-  flex-direction: row;
-}
-
-.partners__container__images__items1 {
-  display: flex;
-  flex-direction: column;
-}
-
-.partners__container__text {
-  width: 200px;
-  margin-left: 10px;
-}
-
-.partners__div p {
-  font-size: 8px;
-}
-
-.partners__div span {
-  font-size: 6px;
-}
-
-.partners__container__text__link {
-  text-decoration: none;
-  font-size: 8px;
-  color: #080808;
-}
-
-.partners__container__images__item__img {
-  width: 70%;
-}
-
-.probel {
-  height: 20px;
-}
-
-.reviews {
-  height: 230px;
-  margin-bottom: 50PX;
-}
-
-.reviews__title {
-  font-size: 12px;
-  margin-bottom: 0px;
-}
-
-.reviews__uppertitle {
-  font-size: 8px;
-  letter-spacing: 1px;
-  margin-bottom: 0PX;
-}
-
-.reviews__link {
-  font-size: 8px;
-  color: #1b1a1a;
-}
-
-.footer__div {
-  height: 150px;
-  flex-direction: column;
-}
-
-.footer__div__img {
-  margin-bottom: 30px;
-}
-
-.footer__div__p {
-  font-size: 8px;
-}
-
-.footer__div__container2 {
-  width: auto;
-  display: flex;
-  justify-content: space-around;
-}
-
-.footer__div__img {
-  width: 120px;
-}
-
-.footer__div__container2 img {
-  width: 60%;
-  height: 60%;
-  margin-inline: 10px;
+  .process__images__container__section__img {
+    width: 50px;
+    height: auto;
+  }
+  .process__images__container__section__text {
+    font-size: 8px;
+  }
+  .stairs {
+    padding-right: 0px;
+    height: 300px;
+    margin-top: 40px;
+  }
+  .stairs__container__title {
+    font-size: 8px;
+    margin-right: 20px;
+  }
+  .stairs__container__text {
+    font-size: 8px;
+    margin-right: 20px;
+  }
+  .customers__images {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .customers__container {
+    height: 300px;
+  }
+  .customer__images__object {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    height: auto;
+  }
+  .customers__container__text {
+    margin-left: 10px;
+  }
+  .customers__container__text__uppertitle {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .customers__container__text__title {
+    font-size: 12px;
+  }
+  .customers__container__text__text {
+    font-size: 8px;
+  }
+  .stairs__wood {
+    height: 300px;
+    padding-left: 20px;
+  }
+  .stairs__wood__container {
+    width: 400px;
+  }
+  .stairs__wood__container__title {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .stairs__wood__container__text {
+    font-size: 8px;
+  }
+  .projects {
+    background: #f7f7f7;
+    margin-bottom: 100px;
+  }
+  .projects__container__imgcontainer__object3 {
+    min-width: 300px;
+    height: 250px;
+  }
+  .projects__container__title {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .projects__container__text {
+    font-weight: 400;
+    font-size: 8px;
+    margin-bottom: 20px;
+  }
+  .projects__container__imgcontainer__object2 {
+    min-width: 300px;
+    height: 250px;
+  }
+  .projects__container__imgcontainer__object2 > div {
+    margin: 20px;
+  }
+  .projects__container__imgcontainer__object1 {
+    min-width: 300px;
+    height: 250px;
+  }
+  .projects__container__imgcontainer__object__uppertitle {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .projects__container__imgcontainer__object__title {
+    font-size: 14px;
+  }
+  .projects__container__imgcontainer__object__btn {
+    font-size: 10px;
+    width: 90px;
+  }
+  .projects__container__imgcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .projects__link {
+    font-size: 10px;
+  }
+  .projects__bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .partners__container__text__title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 38px;
+    color: #403e3b;
+  }
+  .partners__div {
+    display: flex;
+    flex-direction: row;
+  }
+  .partners__container__images__items1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .partners__container__text {
+    width: 200px;
+    margin-left: 10px;
+  }
+  .partners__div p {
+    font-size: 8px;
+  }
+  .partners__div span {
+    font-size: 6px;
+  }
+  .partners__container__text__link {
+    text-decoration: none;
+    font-size: 8px;
+    color: #080808;
+  }
+  .partners__container__images__item__img {
+    width: 70%;
+  }
+  .probel {
+    height: 20px;
+  }
+  .reviews__title {
+    font-size: 12px;
+  }
+  .reviews__uppertitle {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .reviews__link {
+    font-size: 8px;
+    color: #1b1a1a;
+  }
+  .footer__div {
+    height: 150px;
+  }
+  .footer__div__img {
+    margin-bottom: 30px;
+  }
+  .footer__div__p {
+    font-size: 8px;
+  }
+  .footer__div__container2 {
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer__div__img {
+    width: 120px;
+  }
 }/*# sourceMappingURL=media.css.map */
