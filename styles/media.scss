@@ -309,7 +309,7 @@
     max-width: 50%;
   }
   .home__architecture__title {
-    font-size: 16px;
+    font-size: 14px;
     height: 50px;
   }
   .home__achitecture__partners {
@@ -323,7 +323,7 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 9px;
+    font-size: 7px;
     line-height: 20px;
     color: #403e3b;
   }
@@ -339,15 +339,14 @@
   }
   // FIRM
   .firm__container__title {
-    font-size: 14px;
+    font-size: 20px;
   }
   .firm__container__text {
     width: 100%;
-    height: 90px;
   }
   .firm__container__text__p {
     font-size: 10px;
-    line-height: 10px;
+    line-height: 15px;
     margin: 0;
   }
   .firm__container__human__text {
@@ -358,6 +357,19 @@
     height: auto;
   }
 
+  .firm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  .firm__container {
+    margin-top: 20px;
+  }
+  
+  
+
   // WHITE__HOUSE
 
   .white__building {
@@ -367,11 +379,13 @@
   .white__building__title {
     font-size: 10px;
     margin-right: 20px;
+    text-shadow: 0px 0px 0px black;
   }
 
   .white__building__text {
     font-size: 10px;
     margin-right: 20px;
+    text-shadow: 0px 0px 0px black;
   }
 
   // PROCESS
@@ -426,15 +440,19 @@
   // CUSTOMERS
 
   .customers__images {
+    margin: 10px;
+  }
+  .customers__container {
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
-    margin: 20px;
+    height: 410px;
+    align-items: center;
   }
   .customer__images__object {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 60%;
+    width: 80%;
     height: auto;
+    margin: 0 AUTO;
   }
 
   .customers__container__text__uppertitle {
@@ -461,9 +479,12 @@
   .stairs__wood__container__title {
     font-size: 10px;
     letter-spacing: 1px;
+    text-shadow: 0px 0px 0px black;
+    
   }
   .stairs__wood__container__text {
     font-size: 10px;
+    text-shadow: 0px 0px 0px black;
   }
 
   // PROJECTS
@@ -565,6 +586,10 @@
   }
 
   // REVIEWS
+  .reviews {
+    flex-direction: column;
+    justify-content: center;
+  }
 
   .reviews__title {
     font-size: 20px;
@@ -574,6 +599,7 @@
     letter-spacing: 1px;
   }
   .reviews__link {
+    margin-top: 20px;
     font-size: 11px;
     color: #1b1a1a;
   }
@@ -657,33 +683,26 @@
      
     //   HOME
   
+    .home__architecture {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #d6c3b3;
+    }
+.home__achitecture__container {
+  margin-bottom: 30px;
+}
     .home__achitecture__img {
-      max-width: 50%;
+      max-width: 100%;
     }
     .home__architecture__title {
-      font-size: 8px;
-      height: 50px;
+      margin-bottom: 10px;
+
     }
     .home__achitecture__partners {
-      font-size: 5px;
-    }
-    .home__architecture__text {
-      font-family: "Poppins", sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 5px;
-      line-height: 10px;
-      color: #403e3b;
-    }
-    .home__architecture__link {
-      font-family: "Poppins", sans-serif;
-      text-decoration: none;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 5px;
-      line-height: 0px;
-      letter-spacing: 0.4px;
-      color: #080808;
+      margin-bottom: 0px;
     }
     // FIRM
     .firm {
@@ -709,7 +728,7 @@
     }
     .firm__container__human__avatar {
         margin-top: 10px;
-      width: 50px;
+      width: 40px;
       height: auto;
     }
   
@@ -738,29 +757,15 @@
     }
     .process__images__container {
       display: flex;
+      flex-direction: column;
       justify-content: space-around;
       margin-top: 10px;
     }
-    .process__upper__title {
-      font-size: 7px;
-      letter-spacing: 1px;
-    }
-  
-    .process__title {
-      font-size: 12px;
-    }
-  
     .process__images__container__section {
-        margin-top: 0;
+        margin-top: 20px;
       text-align: center;
       margin-inline: 10px;
     }
-    .process__images__container__section__img {
-      width: 50px;
-      height: auto;
-    }
-    .process__images__container__section__text {
-      font-size: 8px;
     }
   
     // STAIRS
@@ -783,9 +788,7 @@
     // CUSTOMERS
   
     .customers__images {
-      display: flex;
-      flex-direction: column;
-      margin: 10px;
+      grid-column-gap: 20px;
     }
     .customers__container {
         height: 300px;
@@ -824,9 +827,11 @@
     .stairs__wood__container__title {
       font-size: 8px;
       letter-spacing: 1px;
+      text-shadow: 0px 0px 0px black;
     }
     .stairs__wood__container__text {
       font-size: 8px;
+      text-shadow: 0px 0px 0px black;
     }
   
     // PROJECTS
@@ -931,13 +936,19 @@
     }
   
     // REVIEWS
+    .reviews {
+      height: 230px;
+      margin-bottom: 50PX;
+    }
   
     .reviews__title {
       font-size: 12px;
+      margin-bottom: 0px;
     }
     .reviews__uppertitle {
       font-size: 8px;
       letter-spacing: 1px;
+      margin-bottom: 0PX;
     }
     .reviews__link {
       font-size: 8px;
@@ -948,6 +959,7 @@
   
     .footer__div {
       height: 150px;
+      flex-direction: column;
     }
   
     .footer__div__img {
@@ -958,11 +970,16 @@
       font-size: 8px;
     }
     .footer__div__container2 {
-      width: 80px;
+      width: auto;
       display: flex;
       justify-content: space-around;
     }
     .footer__div__img {
       width: 120px;
     }
-  }
+
+    .footer__div__container2 img {
+      width: 60%;
+      height: 60%;
+      margin-inline: 10px;
+    }
