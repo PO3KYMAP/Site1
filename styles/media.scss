@@ -631,6 +631,7 @@
     .container {
       max-width: 320px;
       margin: 0 auto;
+      // position: relative;
     }
   
     // HEADER
@@ -638,6 +639,8 @@
     .header__container {
       padding-inline: 0;
       justify-content: space-between;
+      position: relative;
+
     }
     .header__logo {
     
@@ -646,14 +649,14 @@
       max-height: 20px;
     }
     .nav__list__container {
-       text-align: right;
+      text-align: right;
       margin: 0;
       width: auto;
     }
     .media__btn {
         display: block;
         width: 15px;
-        margin-right: 10px;
+        //  margin-right: 10px;
         border: none;
     }
     .nav__list {
@@ -661,8 +664,8 @@
     }
     .nav__list__container:hover .nav__list {
         position: absolute;
-        right: 12%;
-        top: 5%;
+        right: 0;
+        top: 60px;
         border-radius: 10px;
         display: flex;
         margin-inline: 5px;
